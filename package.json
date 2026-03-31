@@ -16,9 +16,9 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.170.2-7-x",
+  "version": "0.170.2-8-x",
   "versions": {
-    "git": "0.170.2-7-x",
+    "git": "0.170.2-8-x",
     "npm": "0.170.1"
   },
   "workspaces": [
@@ -91,11 +91,13 @@
     "source-map-explorer": "^2.5.3"
   },
   "resolutions": {
+    "@pinata/sdk/axios": "0.21.4",
     "@polkadot/api": "^16.5.3",
     "@polkadot/api-augment": "^16.5.3",
     "@polkadot/api-base": "^16.5.3",
     "@polkadot/api-contract": "^16.5.3",
     "@polkadot/api-derive": "^16.5.3",
+    "@polkadot/app-files/axios": "1.9.0",
     "@polkadot/hw-ledger": "^13.5.9",
     "@polkadot/keyring": "^13.5.9",
     "@polkadot/networks": "^13.5.9",
@@ -121,8 +123,6 @@
     "@polkadot/x-textencoder": "^13.5.9",
     "@polkadot/x-ws": "^13.5.9",
     "@zondax/ledger-substrate": "1.1.1",
-    "@pinata/sdk/axios": "0.21.4",
-    "@polkadot/app-files/axios": "1.9.0",
     "@zondax/ledger-substrate/axios": "1.9.0",
     "typescript": "^5.5.4"
   }
