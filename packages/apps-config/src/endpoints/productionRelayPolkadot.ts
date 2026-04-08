@@ -376,7 +376,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       BlockOps: 'wss://hyperbridge-nexus-rpc.blockops.network',
       IBP1: 'wss://nexus.ibp.network',
-      IBP2: 'wss://nexus.dotters.network'
+      IBP2: 'wss://nexus.dotters.network',
+      'Polytope Labs': 'wss://nexus.rpc.polytope.technology'
     },
     text: 'Hyperbridge (Nexus)',
     ui: {
@@ -528,7 +529,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       Allnodes: 'wss://moonbeam-rpc.publicnode.com',
       // 'Automata 1RPC': 'wss://1rpc.io/glmr', // https://github.com/polkadot-js/apps/issues/10566
       // Blast: 'wss://moonbeam.public.blastapi.io', // https://github.com/polkadot-js/apps/issues/11965
-      // Dwellir: 'wss://moonbeam-rpc.n.dwellir.com', // https://github.com/polkadot-js/apps/issues/11935
+      Dwellir: 'wss://moonbeam-rpc.n.dwellir.com',
       IBP1: 'wss://moonbeam.ibp.network',
       IBP2: 'wss://moonbeam.dotters.network',
       'Moonbeam Foundation': 'wss://wss.api.moonbeam.network',
@@ -841,8 +842,9 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'xode',
     paraId: 3417,
     providers: {
-      XodeCommunity: 'wss://polkadot-rpcnode.xode.net',
-      Zeeve: 'wss://xode-polkadot-rpc-01.zeeve.net/y0yxg038wn1fncc/rpc'
+      RakSonCebu: 'wss://rakson-ceb-rpc.xode.net',
+      RakSonKorea: 'wss://rakson-rpc.xode.net',
+      XodeCommunity: 'wss://polkadot-rpcnode.xode.net'
     },
     text: 'Xode',
     ui: {
@@ -880,7 +882,6 @@ export const prodParasPolkadotCommon: EndpointOption[] = [
       LuckyFriday: 'wss://rpc-asset-hub-polkadot.luckyfriday.io',
       OnFinality: 'wss://statemint.api.onfinality.io/public-ws',
       Parity: 'wss://polkadot-asset-hub-rpc.polkadot.io',
-      'Permanence DAO EU': 'wss://asset-hub-polkadot.rpc.permanence.io',
       RadiumBlock: 'wss://statemint.public.curie.radiumblock.co/ws'
       // Stakeworld: 'wss://rpc-asset-hub-polkadot.stakeworld.io'
     },
@@ -1003,7 +1004,6 @@ export const prodRelayPolkadot: EndpointOption = {
     IBP2: 'wss://polkadot.dotters.network',
     LuckyFriday: 'wss://rpc-polkadot.luckyfriday.io',
     OnFinality: 'wss://polkadot.api.onfinality.io/public-ws',
-    // 'Permanence DAO EU': 'wss://polkadot.rpc.permanence.io', // https://github.com/polkadot-js/apps/issues/12078
     RadiumBlock: 'wss://polkadot.public.curie.radiumblock.co/ws',
     // RockX: 'wss://rockx-dot.w3node.com/polka-public-dot/ws', // https://github.com/polkadot-js/apps/issues/11439
     Spectrum: 'wss://spectrum-03.simplystaking.xyz/cG9sa2Fkb3QtMDMtOTFkMmYwZGYtcG9sa2Fkb3Q/LjwBJpV3dIKyWQ/polkadot/mainnet/',
